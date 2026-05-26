@@ -67,7 +67,7 @@ input {
   width: 112px;
   height: auto;
   display: block;
-  mix-blend-mode: multiply;
+}
 }
 
 .center {
