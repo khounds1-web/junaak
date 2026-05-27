@@ -34,9 +34,8 @@ export async function POST(request: Request) {
   );
 
   if (error) {
-    console.error(error);
-    redirect("/?error=signup-failed");
-  }
+  redirect(`/?error=${encodeURIComponent(error.message)}`);
+}
 
   redirect("/?joined=true");
 }
