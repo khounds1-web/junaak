@@ -294,3 +294,48 @@ button:hover {
     display: none;
   }
 }
+.thankYouPage {
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  background: var(--cream);
+  color: var(--ink);
+}
+
+.thankYouCard {
+  max-width: 520px;
+  text-align: center;
+}
+
+.thankYouCard .logo {
+  margin: 0 auto 56px;
+}
+
+.thankYouCard h1 {
+  font-size: clamp(56px, 7vw, 88px);
+}
+
+.thankYouCopy {
+  margin: 36px auto 0;
+  max-width: 440px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(33, 29, 24, 0.78);
+}
+
+.backLink {
+  display: inline-block;
+  margin-top: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(33, 29, 24, 0.7);
+  text-decoration: none;
+}
+
+.backLink:hover {
+  color: var(--ink);
+}
