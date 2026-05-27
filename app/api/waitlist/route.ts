@@ -37,5 +37,5 @@ export async function POST(request: Request) {
   redirect(`/?error=${encodeURIComponent(error.message)}`);
 }
 
-  redirect("/?joined=true");
+  redirect("/thank-you");
 }
